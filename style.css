@@ -134,10 +134,14 @@ footer a {
     gap: 10px;
     text-decoration: none;
     flex-basis: 50%;
+    transition: 0.1s;
 }
 
 footer a:hover {
+    background-color: #6157fc;
+    border-radius: 10px;
     opacity: 0.85;
+    transform: scale(1.1);
 }
 
 @media screen and (max-width: 768px) {
