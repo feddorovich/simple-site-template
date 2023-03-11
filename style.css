@@ -119,6 +119,8 @@ h1 {
     justify-content: space-around;
     flex-wrap: wrap;
     flex-basis: 100%;
+    align-items: center;
+    height: 80px;
 }
 
 footer a {
@@ -153,16 +155,20 @@ footer a:hover {
         width: 160px;
     }
 
+    footer {
+        height: 120px;
+    }
+
+    .footer-wrap {
+        height: 120px;
+    }
+
     .footer-wrap li{
         flex-basis: 50%;
     }
 
     footer a{
         justify-content: center;
-    }
-
-    footer {
-        height: 140px;
     }
 }
 
