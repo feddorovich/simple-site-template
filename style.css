@@ -226,6 +226,14 @@ footer a:hover {
     footer a{
         justify-content: center;
     }
+
+    .logo-name img {
+        height: 100px;
+    }
+
+    .logo-name {
+        font-size: 20px;
+    }
 }
 
 .menu-container {
