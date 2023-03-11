@@ -228,11 +228,11 @@ footer a:hover {
     }
 
     .logo-name img {
-        height: 100px;
+        height: 150px;
     }
 
     .logo-name {
-        font-size: 20px;
+        font-size: 0;
     }
 }
 
