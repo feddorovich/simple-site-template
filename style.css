@@ -9,7 +9,7 @@ ul {
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Golos Text', sans-serif;
     color: #2F2E41;
     line-height: 1.2;
     letter-spacing: -0.02em;
@@ -76,7 +76,7 @@ h1 {
     width: 120px;
     height: 40px;
     background-color: transparent;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Golos Text', sans-serif;
     font-weight: 500;
     font-size: 16px;
     text-transform: uppercase;
@@ -151,7 +151,7 @@ h1 {
     width: 100%;
     height: 40px;
     background-color: transparent;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Golos Text', sans-serif;
     font-weight: 500;
     font-size: 16px;
     text-transform: uppercase;
