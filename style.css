@@ -247,7 +247,7 @@ footer a:hover {
     position: fixed;
     top: 0;
     left: -317px;
-    transition: left 0.3s ease-in-out;
+    transition: left 0.1s ease-in-out;
     z-index: 1;
 }
 
