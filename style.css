@@ -85,7 +85,6 @@ h1 {
 }
 
 .login-btn:hover {
-   /* opacity: 0.85;*/
     transform: scale(1.05);
     border: 2px solid #6C63FF;
     background-color: #FFFFFF;
@@ -110,11 +109,14 @@ h1 {
     align-items: center;
     box-shadow: 0 0 10px 1px #E7E7E7;
     height: 100%;
-    background: linear-gradient(35deg, rgba(108, 99, 255, 0.16), #FFFFFF);
+    background: #FFFFFF;
+    transition: 0.3s;
 }
 
 .card:hover {
-    background: linear-gradient(35deg, rgba(174, 169, 250, 0.16), #FFFFFF);
+    transform: scale(1.02);
+    transform-origin: bottom;
+    background: linear-gradient(0deg, rgba(108, 99, 255, 0.16), #FFFFFF, #FFFFFF);
 }
 
 .card h3 {
@@ -122,6 +124,7 @@ h1 {
     font-size: 22px;
     text-align: center;
     text-transform: uppercase;
+    cursor: default;
 }
 
 .card img {
@@ -139,6 +142,7 @@ h1 {
 .card p {
     text-align: justify;
     line-height: 1.4;
+    cursor: default;
 }
 
 .card button {
@@ -193,7 +197,6 @@ footer a {
 footer a:hover {
     background-color: #6157fc;
     border-radius: 10px;
-    opacity: 0.85;
     transform: scale(1.1);
 }
 
