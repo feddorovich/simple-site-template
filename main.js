@@ -19,12 +19,13 @@ closeButton.addEventListener('click', function () {
 // Код свайпа слева
 var initialPoint;
 var finalPoint;
-var swipeThreshold = 100; // пороговое значение дистанции свайпа
+var swipeThreshold = 50; // пороговое значение дистанции свайпа
 var swipeAreaWidth = window.innerWidth * 0.2; // ширина области свайпа (20% экрана)
 
 document.addEventListener('touchstart', function (event) {
-    // проверяем, находится ли начальная точка касания в левой области экрана
-    if (event.touches[0].clientX < swipeAreaWidth) {
+    // проверяем, находится ли начальная точка касания в правой или левой области экрана
+    var touchX = event.touches[0].clientX;
+    if (touchX < swipeAreaWidth || touchX > window.innerWidth - swipeAreaWidth) {
         initialPoint = event.changedTouches[0];
     }
 }, false);
