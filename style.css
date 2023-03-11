@@ -85,10 +85,10 @@ h1 {
 }
 
 .login-btn:hover {
-    transform: scale(1.05);
     border: 2px solid #6C63FF;
     background-color: #FFFFFF;
     color: #6C63FF;
+    cursor: pointer;
 }
 
 .cards-wrap {
@@ -232,3 +232,62 @@ footer a:hover {
     }
 }
 
+.menu-container {
+    display: flex;
+}
+
+.menu {
+    width: 317px;
+    height: 100%;
+    background-color: #F2F2F2;
+    position: fixed;
+    top: 0;
+    left: -317px;
+    transition: left 0.3s ease-in-out;
+    z-index: 1;
+}
+
+.menu.show {
+    left: 0;
+    box-shadow: 0 10px 40px rgba(29, 33, 38, 0.13),
+    0 1px 2px rgba(29, 33, 38, 0.1);
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    padding: 10px;
+    margin: 20px;
+}
+
+.menu a {
+    font-size: 22px;
+    color: #2F2E41;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: #6157fc;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+.menu-button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Golos Text', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: 0.3s;
+}
