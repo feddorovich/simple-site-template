@@ -31,6 +31,7 @@ body {
 header,
 footer {
     background-color: #6C63FF;
+    height: 80px;
 }
 
 header {
@@ -63,10 +64,12 @@ h1 {
     font-size: 16px;
     text-transform: uppercase;
     color: #FFFFFF;
+    transition: 0.1s;
 }
 
 .login-btn:hover {
     opacity: 0.85;
+    transform: scale(1.05);
 }
 
 .cards-wrap {
@@ -102,6 +105,13 @@ h1 {
 .card img {
     margin: 40px 0 36px;
     height: 200px;
+    transition: 0.1s;
+    border: 1px solid #E7E7E7;
+    border-radius: 9px;
+}
+
+.card img:hover {
+    transform: scale(1.05);
 }
 
 .footer-wrap {
@@ -149,6 +159,10 @@ footer a:hover {
 
     footer a{
         justify-content: center;
+    }
+
+    footer {
+        height: 140px;
     }
 }
 
