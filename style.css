@@ -211,10 +211,6 @@ footer a:hover {
         font-size: 28px;
     }
 
-    header img {
-        width: 160px;
-    }
-
     footer {
         height: 120px;
     }
@@ -261,17 +257,30 @@ footer a:hover {
 
 .menu li {
     padding: 10px;
-    margin: 20px;
+    margin: 10px;
 }
 
 .menu a {
+    font-weight: 400;
     font-size: 22px;
+    text-transform: capitalize;
     color: #2F2E41;
+    padding: 9px 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
     text-decoration: none;
+    flex-basis: 50%;
+    transition: 0.3s;
+    border: 2px solid #E7E7E7;
+    border-radius: 10px;
 }
 
 .menu a:hover {
-    color: #6157fc;
+    color: #FFFFFF;
+    background-color: #6157fc;
+    border-radius: 10px;
+    transform: scale(1.05);
 }
 
 .content {
